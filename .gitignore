@@ -1,0 +1,30 @@
+# Android / Gradle
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+app/build/
+build/
+
+# Signing — never commit these
+keystore.properties
+*.keystore
+*.jks
+
+# Standalone build output
+MineIDE/build/
+*.apk.idsig
+
+# API generator intermediates (regenerate with tools/generate-api)
+tools/generate-api/sources/
+tools/generate-api/pmapi_full.json
+tools/generate-api/pmdata.js
+
+# Editors
+*.swp
+*~

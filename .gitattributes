@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.png binary
+*.apk binary
+*.keystore binary
+*.jks binary
+# generated index — keep diffs out of review
+app/src/main/assets/app/js/pmdata.js linguist-generated=true -diff
